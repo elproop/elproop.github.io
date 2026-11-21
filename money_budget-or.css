@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border: 3px solid rgba(0, 0, 0, 0.57);
+    border-radius: 25px;
+    background: linear-gradient(180deg, hsl(202, 84%, 78%), hsl(120, 100%, 73%));
+    padding: 15px;
+    width: 40%;
+    box-shadow: 2px 2px 10px;
+}
+
+#message {
+    text-align: center;
+    border: 2px solid hsla(0, 0%, 0%, 0.389);
+    border-radius: 25px;
+    background-color: hsla(48, 100%, 51%, 0.76);
+    padding: 10px 4px;    
+}
+
+p , input , button[type="submit"] {
+    font-weight: bold;
+}
+
+input , button[type="submit"] {
+    font-size: 1.5em;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+}
+
+#container input {
+    max-width: 100px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    display: block;
+    font-size: 1.5em;
+}
+
+button[type="submit"] {
+    cursor: pointer;
+    max-width: 350px;
+}
+
+button[type="submit"]:hover {
+    background-color: hsl(0, 0%, 61%);
+    color: white;
+}
